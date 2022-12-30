@@ -1,6 +1,6 @@
 //Libs
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 //Styles
 import styles from './Navbar.module.css'
 
@@ -13,13 +13,13 @@ const Navbar = () => {
     <div className={styles.navbar___list}>
       <ul>
         <li>
-          <NavLink to="/register">Register</NavLink>
+          <Link to="/register">Register</Link>
         </li>
         <li>
-          <NavLink to="/login">Login</NavLink>
+          <Link to="/login">Login</Link>
         </li>
         <li>
-          <NavLink to="/createPost">Write a Story</NavLink>
+          <Link to="/createPost">Write a Story</Link>
         </li>
       </ul>
     </div>

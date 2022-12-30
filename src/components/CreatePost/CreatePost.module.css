@@ -1,0 +1,48 @@
+.createPost{
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.createPostForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding: 30px;
+  gap: 10px;
+}
+
+h1{
+  color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input{
+  height: 40px;
+  width: 150%;
+  margin-top:40px;
+  border-radius: 5px;
+}
+
+textarea{
+  width: 150%;
+  border-radius: 5px;
+  height: 300px;
+}
+
+button{
+  height: 50px;
+  width: 130% !important;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: skyblue;
+}
