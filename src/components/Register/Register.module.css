@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 60vh;
+  border-radius: 40px;
+  border: 2px solid white;
+  margin: auto;  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 10px;
+}
+.input{
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  
+}
+.button{
+  width: 80% !important;
+  padding: 10px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 55px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color:aquamarine;
+}
+.title{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  margin:5%;
+}
+.h1{
+  color:aliceblue;
+}
+
+label :hover{
+  color: skyblue;
+}

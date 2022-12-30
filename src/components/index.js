@@ -1,0 +1,8 @@
+export { Navbar } from './Navbar'
+export { Home } from './Home'
+export { Login } from './Login'
+export { AllPost } from './AllPost'
+export { CreatePost } from './CreatePost'
+export { NotFound } from './NotFound'
+export { Post } from './Post'
+export { Register } from './Register'
